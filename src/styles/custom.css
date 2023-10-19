@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Nohemi';
+    src: url('../../public/fonts/Nohemi-Regular.woff2') format('woff2'),
+        url('../../public/fonts/Nohemi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Nohemi', sans-serif;
+}
