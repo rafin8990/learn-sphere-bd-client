@@ -3,7 +3,7 @@ import "../../styles/custom.css";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('https://i.ibb.co/wSg7jCP/jjjjjjjjj.jpg')] bg-no-repeat md:bg-cover h-[500px] md:h-[700px] bg-opacity-40 flex justify-center items-center">
+    <div className="bg-[url('https://i.ibb.co/wSg7jCP/jjjjjjjjj.jpg')] bg-no-repeat md:bg-cover h-[500px] md:h-[700px] bg-opacity-40 flex justify-center items-center relative">
       <div className="">
         <h1 className="text-4xl md:text-6xl font-bold text-center text-white">
           Your Personal Assistant
