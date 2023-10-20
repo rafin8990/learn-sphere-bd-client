@@ -1,26 +1,21 @@
-import Image from "next/image";
+import { FaSearch } from "react-icons/fa";
 import "../../styles/custom.css";
-import image from "../../../public/photos/1122286_4839.jpg";
+
 const Banner = () => {
   return (
-    <div className="bg-white">
-      <div className="w-[1440px] mx-auto flex justify-between items-center">
-        <div className="w-1/2">
-          <h1 className="text-4xl text-black font-semibold">We Give</h1>
-          <h1 className="text-6xl text-black mt-1">Best Home</h1>
-          <h1 className="text-6xl text-black mt-1">Services</h1>
-          <p className="text-gray-700 font-serif">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet minus
-            minima ab. Quidem cumque eum facere impedit debitis magnam id.
-          </p>
-        </div>
-        <div className="w-1/2">
-          <Image
-            src={image}
-            alt="A descriptive image alt text"
-            width={500}
-            height={300}
-          ></Image>
+    <div className="bg-[url('https://i.ibb.co/wSg7jCP/jjjjjjjjj.jpg')] bg-no-repeat md:bg-cover h-[500px] md:h-[700px] bg-opacity-40 flex justify-center items-center">
+      <div className="">
+        <h1 className="text-4xl md:text-6xl font-bold text-center text-white">
+          Your Personal Assistant
+        </h1>
+        <p className="text-xl text-center text-white">
+          One-stop solution for your services. Order any service, anytime.
+        </p>
+        <div className="my-10 flex justify-center items-center mx-2">
+          <input className="input input-bordered md:w-full" type="text"></input>
+          <button className="btn border border-gray-400 ml-2 md:ml-5">
+            <FaSearch></FaSearch> Search
+          </button>
         </div>
       </div>
     </div>
