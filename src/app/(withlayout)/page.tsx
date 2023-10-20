@@ -2,6 +2,7 @@ import Banner from "@/components/HomeComponent/Banner";
 import Counter from "@/components/HomeComponent/Counter";
 import Features from "@/components/HomeComponent/Features";
 import HowItWork from "@/components/HomeComponent/HowItWork";
+import LatestUpdate from "@/components/HomeComponent/LatestUpdate";
 import Review from "@/components/HomeComponent/Review";
 import WhyChooseUS from "@/components/HomeComponent/WhyChooseUS";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Counter></Counter>
       <HowItWork></HowItWork>
       <Review></Review>
+      <LatestUpdate></LatestUpdate>
     </div>
   );
 }

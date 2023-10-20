@@ -80,7 +80,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <p className="btn">
+        <p className="btn bg-gradient-to-r from-cyan-500 to-blue-500">
           <Link href="/login">Login</Link>
         </p>
       </div>
